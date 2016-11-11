@@ -89,16 +89,37 @@
 
 		<div class="row all-row-centered">
 
-			<div class="col-lg-4 all-col-centered col-md-4 xs-space-outside-down-md limit-width-xs">
+			<div class="all-col-centered 
+						col-lg-4 
+						col-md-4 
+						xs-space-outside-down-md 
+						
+			">
 
-				<div  class="bg-secondary row space-outside-sides-xs  pointer">
+				<div  class="bg-secondary 
+							 row 
+							 space-outside-sides-xs 
+							 pointer
+				">
 					
-					<div class="col-lg-3 col-md-3 xs-space-inside-md block">
+					<div class="col-lg-3 
+								col-md-3 
+								xs-space-inside-md 
+								block
+
+						">
 						
 
 					</div>
 
-					<div style="min-height: 230px;" class="col-lg-9 col-md-9 bg-accent   space-inside-sm space-inside-left-md">
+					<div 	class="col-lg-9 
+								   col-md-9 
+								   bg-accent   
+								   space-inside-sm 
+								   space-inside-left-md
+								   min-height-md
+
+					">
 						
 						<h5 class="space-outside-down-sm ">Bedrijven, sdfoverheid en particulier</h5>
 
@@ -108,7 +129,7 @@
 							uit. Door de grote ervaring van onze
 							medewerkers, de juiste vakkennis en
 							vakbekwaamheid kan Amiante inventarisaties
-							uitvoeren in alles soorten gebouwen.
+							uitvoeren in alles soorten gebouwen. 
 						</p>
 
 					</div>
@@ -117,16 +138,35 @@
 
 			</div>
 
-			<div class="col-lg-4 all-col-centered col-md-4 xs-space-outside-down-md limit-width-xs">
+			<div class="col-lg-4 
+						all-col-centered 
+						col-md-4 
+						xs-space-outside-down-md 
 
-				<div class="bg-main row space-outside-sides-xs pointer">
+			">
+
+				<div class="bg-main 
+							row 
+							space-outside-sides-xs 
+							pointer
+				">
 					
-					<div class="col-lg-3 col-md-3 xs-space-inside-md  block">
+					<div class="col-lg-3 
+								col-md-3 
+								xs-space-inside-md  
+								block
+					">
 						
 
 					</div>
 
-					<div style="min-height: 230px;" class="col-lg-9 col-md-9 bg-accent space-inside-sm space-inside-sides-md no-overflow">
+					<div style="min-height: 230px;" class="col-lg-9 
+														   col-md-9 
+														   bg-accent 
+														   space-inside-sm 
+														   space-inside-sides-md 
+														   no-overflow
+					">
 						
 						<h5 class="space-outside-down-sm">Bedrijven, overheid en particulier</h5>
 
@@ -145,7 +185,7 @@
 
 			</div>
 
-			<div  class="col-lg-4 all-col-centered col-md-4 xs-space-outside-down-md limit-width-xs">
+			<div  class="col-lg-4 all-col-centered col-md-4 xs-space-outside-down-md ">
 
 				<div class="bg-dark row space-outside-sides-xs  pointer">
 					

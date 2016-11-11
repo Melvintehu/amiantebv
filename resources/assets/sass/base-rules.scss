@@ -968,74 +968,14 @@ $dist-side : 85px;
 /* sections limits */
 
 
-.limit-width-xs{ max-width: 360px; margin-left: auto; margin-right: auto; }
+
 
 .max-height-xs{ max-height: 110px; overflow: hidden; }
 
 .min-height-xs{ min-height: 110px; }
 
 
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-	
 
-	.xl-limit-width-xl{ max-width: 90%; }
-	.xl-limit-width-lg{ max-width: 70%; }
-	.xl-limit-width-md{ max-width: 50%; }
-	.xl-limit-width-sm{ max-width: 30%; }
-	.lg-limit-width-xs{ max-width: 360px; margin-left: auto; margin-right: auto; }
-
-}
-
-
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-
-	.lg-limit-width-xl{ max-width: 90%; }
-	.lg-limit-width-lg{ max-width: 70%; }
-	.lg-limit-width-md{ max-width: 50%; }
-	.lg-limit-width-sm{ max-width: 30%; }
-	.md-limit-width-xs{ max-width: 360px; }
-	
-
-}
-
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-
-
-	.md-limit-width-xl{ max-width: 90%; }
-	.md-limit-width-lg{ max-width: 70%; }
-	.md-limit-width-md{ max-width: 50%; }
-	.md-limit-width-sm{ max-width: 30%; }
-	.sm-limit-width-xs{ max-width: 360px; margin-left: auto; margin-right: auto; }
-	
-
-}
-
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
-
-	.sm-limit-width-xl{ max-width: 90%; }
-	.sm-limit-width-lg{ max-width: 70%; }
-	.sm-limit-width-md{ max-width: 50%; }
-	.sm-limit-width-sm{ max-width: 30%; }
-	.xs-limit-width-xs{ max-width: 360px; }
-	
-
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
-
-
-	.xs-limit-width{ max-width: 480px; margin-left: auto; margin-right: auto; }
-	
-
-}
 
 
 
