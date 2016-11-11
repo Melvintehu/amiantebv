@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Laravel</title>
+        <title>Amiante Inspections B.V>. || Asbestinventarisatie</title>
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
@@ -16,8 +16,6 @@
 
 
     	@include('partials.header')
-
-        @include('partials.banner')
 
         @include('partials.contact-balk')
         
