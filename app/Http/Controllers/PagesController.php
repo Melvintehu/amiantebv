@@ -68,16 +68,16 @@ class PagesController extends Controller
    		return view('pages.contact', compact('data'));
    	}
 
-	public function overOns()
+	public function bedrijfsinformatie()
 	{
 
-		$sections = $this->getSections('over-ons');
+		//$sections = $this->getSections('over-ons');
 
-		$data = [
-			'sections' => $sections,
-		];
+		// $data = [
+		// 	'sections' => $sections,
+		// ];
 
-		return view('pages.over-ons', compact('data'));
+		return view('pages.bedrijfsinformatie');
 	}	
 
 	public function interieur()

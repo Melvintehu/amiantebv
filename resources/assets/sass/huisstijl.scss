@@ -78,6 +78,7 @@
 	-- shapes
 	-- floats
 	-- block limits
+	-- blocks
 
 
 
@@ -156,10 +157,16 @@ $opacity-xl: 0.25;
 $border-thickness: 1px;
 
 $limit-width-xs: 200px;
-$limit-width-sm: 220px;
-$limit-width-md: 240px;
-$limit-width-lg: 260px;
-$limit-width-xl: 280px;
+$limit-width-sm: 240px;
+$limit-width-md: 280px;
+$limit-width-lg: 320px;
+$limit-width-xl: 360px;
+
+$limit-height-xs: 200px;
+$limit-height-sm: 220px;
+$limit-height-md: 240px;
+$limit-height-lg: 260px;
+$limit-height-xl: 280px;
 
 
 /* --------------------------------------------- BASE SETTINGS -------------------------------------------- */
@@ -444,6 +451,16 @@ h1,h2,h3,h4,h5{
 		.lg-bg-main{ background: $main-color !important; min-height: 1px; }
 		.lg-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
 		.lg-bg-accent{ background: $accent-color; min-height: 1px; }
+
+
+		/*  ---- background-color hovers ---- */
+
+
+		.lg-bg-hover-light:hover{ background: $background-color-light !important; }
+		.lg-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.lg-bg-hover-main:hover{ background: $main-color !important; }
+		.lg-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.lg-bg-hover-accent:hover{ background: $accent-color !important; }
 	}
 
 	/* Landscape tablets and medium desktops */
@@ -453,6 +470,15 @@ h1,h2,h3,h4,h5{
 		.md-bg-main{ background: $main-color !important; min-height: 1px; }
 		.md-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
 		.md-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.md-bg-hover-light:hover{ background: $background-color-light !important; }
+		.md-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.md-bg-hover-main:hover{ background: $main-color !important; }
+		.md-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.md-bg-hover-accent:hover{ background: $accent-color !important; }		
 	}
 
 	/* Portrait tablets and small desktops */
@@ -462,6 +488,15 @@ h1,h2,h3,h4,h5{
 		.sm-bg-main{ background: $main-color !important; min-height: 1px; }
 		.sm-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
 		.sm-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.sm-bg-hover-light:hover{ background: $background-color-light !important; }
+		.sm-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.sm-bg-hover-main:hover{ background: $main-color !important; }
+		.sm-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.sm-bg-hover-accent:hover{ background: $accent-color !important; }
 	}
 
 	/* Landscape phones and portrait tablets */
@@ -471,6 +506,15 @@ h1,h2,h3,h4,h5{
 		.xs-bg-main{ background: $main-color !important; min-height: 1px; }
 		.xs-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
 		.xs-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.xs-bg-hover-light:hover{ background: $background-color-light !important; }
+		.xs-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.xs-bg-hover-main:hover{ background: $main-color !important; }
+		.xs-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.xs-bg-hover-accent:hover{ background: $accent-color !important; }		
 	 }
 
 	/* Portrait phones and smaller */
@@ -480,6 +524,15 @@ h1,h2,h3,h4,h5{
 		.xs-bg-main{ background: $main-color !important; min-height: 1px; }
 		.xs-bg-secondary{ 	background: $secondary-color; min-height: 1px; }
 		.xs-bg-accent{ background: $accent-color; min-height: 1px; }
+
+		/*  ---- background-color hovers ---- */
+
+
+		.xs-bg-hover-light:hover{ background: $background-color-light !important; }
+		.xs-bg-hover-dark:hover{ background: $background-color-dark !important; }
+		.xs-bg-hover-main:hover{ background: $main-color !important; }
+		.xs-bg-hover-secondary:hover{ background: $secondary-color !important; }
+		.xs-bg-hover-accent:hover{ background: $accent-color !important; }
 	}
 
 
@@ -679,11 +732,11 @@ p{ color: $dark-color; }
 /* ----------------- */
 
 
-.text-color-light{ color: $light-color; }
-.text-color-dark{ color: $dark-color; }
-.text-color-main{ color: $main-color; }
-.text-color-secondary{ color: $secondary-color; }
-.text-color-accent{ color: $accent-color; }
+.text-color-light{ color: $light-color !important; }
+.text-color-dark{ color: $dark-color !important; }
+.text-color-main{ color: $main-color !important; }
+.text-color-secondary{ color: $secondary-color !important; }
+.text-color-accent{ color: $accent-color !important; }
 
 /* make text colors lighter */
 
@@ -691,11 +744,11 @@ p{ color: $dark-color; }
 /* make dark color lighter */
 
 
-.text-color-dark-lighten-xs { color: lighten($dark-color, 10%); }
-.text-color-dark-lighten-sm { color: lighten($dark-color, 30%); }
-.text-color-dark-lighten-md { color: lighten($dark-color, 50%); }
-.text-color-dark-lighten-lg { color: lighten($dark-color, 70%); }
-.text-color-dark-lighten-xl { color: lighten($dark-color, 90%); }
+.text-color-dark-lighten-xs { color: lighten($dark-color, 10%) !important; }
+.text-color-dark-lighten-sm { color: lighten($dark-color, 30%) !important; }
+.text-color-dark-lighten-md { color: lighten($dark-color, 50%) !important; }
+.text-color-dark-lighten-lg { color: lighten($dark-color, 70%) !important; }
+.text-color-dark-lighten-xl { color: lighten($dark-color, 90%) !important; }
 
 
 /* make text colors darker */
@@ -703,38 +756,38 @@ p{ color: $dark-color; }
 
 /* make light color darker */
 
-.text-color-light-darken-xs { color: darken($light-color, 10%); }
-.text-color-light-darken-sm { color: darken($light-color, 30%); }
-.text-color-light-darken-md { color: darken($light-color, 50%); }
-.text-color-light-darken-lg { color: darken($light-color, 70%); }
-.text-color-light-darken-xl { color: darken($light-color, 90%); }
+.text-color-light-darken-xs { color: darken($light-color, 10%) !important; }
+.text-color-light-darken-sm { color: darken($light-color, 30%) !important; }
+.text-color-light-darken-md { color: darken($light-color, 50%) !important; }
+.text-color-light-darken-lg { color: darken($light-color, 70%) !important; }
+.text-color-light-darken-xl { color: darken($light-color, 90%) !important; }
 
 
 /* make accent color darker */
 
-.text-color-accent-darken-xs { color: darken($accent-color, 10%); }
-.text-color-accent-darken-sm { color: darken($accent-color, 30%); }
-.text-color-accent-darken-md { color: darken($accent-color, 50%); }
-.text-color-accent-darken-lg { color: darken($accent-color, 70%); }
-.text-color-accent-darken-xl { color: darken($accent-color, 90%); }
+.text-color-accent-darken-xs { color: darken($accent-color, 10%) !important; }
+.text-color-accent-darken-sm { color: darken($accent-color, 30%) !important; }
+.text-color-accent-darken-md { color: darken($accent-color, 50%) !important; }
+.text-color-accent-darken-lg { color: darken($accent-color, 70%) !important; }
+.text-color-accent-darken-xl { color: darken($accent-color, 90%) !important; }
 
 
 /* make accent color darker */
 
-.text-color-secondary-darken-xs { color: darken($secondary-color, 10%); }
-.text-color-secondary-darken-sm { color: darken($secondary-color, 30%); }
-.text-color-secondary-darken-md { color: darken($secondary-color, 50%); }
-.text-color-secondary-darken-lg { color: darken($secondary-color, 70%); }
-.text-color-secondary-darken-xl { color: darken($secondary-color, 90%); }
+.text-color-secondary-darken-xs { color: darken($secondary-color, 10%) !important; }
+.text-color-secondary-darken-sm { color: darken($secondary-color, 30%) !important; }
+.text-color-secondary-darken-md { color: darken($secondary-color, 50%) !important; }
+.text-color-secondary-darken-lg { color: darken($secondary-color, 70%) !important; }
+.text-color-secondary-darken-xl { color: darken($secondary-color, 90%) !important; }
 
 
 /* make accent color darker */
 
-.text-color-main-darken-xs { color: darken($main-color, 10%); }
-.text-color-main-darken-sm { color: darken($main-color, 30%); }
-.text-color-main-darken-md { color: darken($main-color, 50%); }
-.text-color-main-darken-lg { color: darken($main-color, 70%); }
-.text-color-main-darken-xl { color: darken($main-color, 90%); }
+.text-color-main-darken-xs { color: darken($main-color, 10%) !important; }
+.text-color-main-darken-sm { color: darken($main-color, 30%) !important; }
+.text-color-main-darken-md { color: darken($main-color, 50%) !important; }
+.text-color-main-darken-lg { color: darken($main-color, 70%) !important; }
+.text-color-main-darken-xl { color: darken($main-color, 90%) !important; }
 
 
 /* -------------------------- */
@@ -766,47 +819,84 @@ h1.text-color-accent, h2.text-color-accent, h3.text-color-accent, h4.text-color-
 
 	/* Large desktops and laptops */
 	@media (min-width: 1200px) { 
-		.lg-text-color-light{ color: $light-color; }
-		.lg-text-color-dark{ color: $dark-color; }
-		.lg-text-color-main{ color: $main-color; }
-		.lg-text-color-secondary{ color: $secondary-color; }
-		.lg-text-color-accent{ color: $accent-color; }
+		.lg-text-color-light{ color: $light-color !important; }
+		.lg-text-color-dark{ color: $dark-color !important; }
+		.lg-text-color-main{ color: $main-color !important; }
+		.lg-text-color-secondary{ color: $secondary-color !important; }
+		.lg-text-color-accent{ color: $accent-color !important; }
+
+
+		/* text hovers */
+
+		.lg-text-hover-light:hover{ color: $light-color !important; }
+		.lg-text-hover-dark:hover{ color: $dark-color !important; }
+		.lg-text-hover-main:hover{ color: $main-color !important; }
+		.lg-text-hover-secondary:hover{ color: $secondary-color !important; }
+		.lg-text-hover-accent:hover{ color: $accent-color !important; }
+
 	}
 
 	/* Landscape tablets and medium desktops */
 	@media (min-width: 992px) and (max-width: 1199px) { 
-		.md-text-color-light{ color: $light-color; }
-		.md-text-color-dark{ color: $dark-color; }
-		.md-text-color-main{ color: $main-color; }
-		.md-text-color-secondary{ color: $secondary-color; }
-		.md-text-color-accent{ color: $accent-color; }
+		.md-text-color-light{ color: $light-color !important; }
+		.md-text-color-dark{ color: $dark-color !important; }
+		.md-text-color-main{ color: $main-color !important; }
+		.md-text-color-secondary{ color: $secondary-color !important; }
+		.md-text-color-accent{ color: $accent-color !important; }
+
+		.md-text-hover-light:hover{ color: $light-color !important; }
+		.md-text-hover-dark:hover{ color: $dark-color !important; }
+		.md-text-hover-main:hover{ color: $main-color !important; }
+		.md-text-hover-secondary:hover{ color: $secondary-color !important; }
+		.md-text-hover-accent:hover{ color: $accent-color !important; }
 	}
 
 	/* Portrait tablets and small desktops */
 	@media (min-width: 768px) and (max-width: 991px) { 
-		.sm-text-color-light{ color: $light-color; }
-		.sm-text-color-dark{ color: $dark-color; }
-		.sm-text-color-main{ color: $main-color; }
-		.sm-text-color-secondary{ color: $secondary-color; }
-		.sm-text-color-accent{ color: $accent-color; }
+		.sm-text-color-light{ color: $light-color !important; }
+		.sm-text-color-dark{ color: $dark-color !important; }
+		.sm-text-color-main{ color: $main-color !important; }
+		.sm-text-color-secondary{ color: $secondary-color !important; }
+		.sm-text-color-accent{ color: $accent-color !important; }
+
+		.sm-text-hover-light:hover{ color: $light-color !important; }
+		.sm-text-hover-dark:hover{ color: $dark-color !important; }
+		.sm-text-hover-main:hover{ color: $main-color !important; }
+		.sm-text-hover-secondary:hover{ color: $secondary-color !important; }
+		.sm-text-hover-accent:hover{ color: $accent-color !important; }
+
 	}
 
 	/* Landscape phones and portrait tablets */
 	@media (max-width: 767px) { 
-		.xs-text-color-light{ color: $light-color; }
-		.xs-text-color-dark{ color: $dark-color; }
-		.xs-text-color-main{ color: $main-color; }
-		.xs-text-color-secondary{ color: $secondary-color; }
-		.xs-text-color-accent{ color: $accent-color; }
+		.xs-text-color-light{ color: $light-color !important; }
+		.xs-text-color-dark{ color: $dark-color !important; }
+		.xs-text-color-main{ color: $main-color !important; }
+		.xs-text-color-secondary{ color: $secondary-color !important; }
+		.xs-text-color-accent{ color: $accent-color !important; }
+
+		.xs-text-hover-light:hover{ color: $light-color !important; }
+		.xs-text-hover-dark:hover{ color: $dark-color !important; }
+		.xs-text-hover-main:hover{ color: $main-color !important; }
+		.xs-text-hover-secondary:hover{ color: $secondary-color !important; }
+		.xs-text-hover-accent:hover{ color: $accent-color !important; }
+
 	}
 
 	/* Portrait phones and smaller */
 	@media (max-width: 480px) { 
-		.xs-text-color-light{ color: $light-color; }
-		.xs-text-color-dark{ color: $dark-color; }
-		.xs-text-color-main{ color: $main-color; }
-		.xs-text-color-secondary{ color: $secondary-color; }
-		.xs-text-color-accent{ color: $accent-color; }
+		.xs-text-color-light{ color: $light-color !important; }
+		.xs-text-color-dark{ color: $dark-color !important; }
+		.xs-text-color-main{ color: $main-color !important; }
+		.xs-text-color-secondary{ color: $secondary-color !important; }
+		.xs-text-color-accent{ color: $accent-color !important; }
+
+		.xs-text-hover-light:hover{ color: $light-color !important; }
+		.xs-text-hover-dark:hover{ color: $dark-color !important; }
+		.xs-text-hover-main:hover{ color: $main-color !important; }
+		.xs-text-hover-secondary:hover{ color: $secondary-color !important; }
+		.xs-text-hover-accent:hover{ color: $accent-color !important; }
+
 	}
 
 
@@ -1343,29 +1433,32 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 /* || --classes-- || */
 /* ----------------- */
 
-.max-width-xs { max-width: 200px; }
-.max-width-sm { max-width: 250px; }
-.max-width-md { max-width: 300px; }
-.max-width-lg { max-width: 350px; }
-.max-width-xl { max-width: 400px; }
+.max-width-xs { max-width: $limit-width-xs; }
+.max-width-sm { max-width: $limit-width-sm; }
+.max-width-md { max-width: $limit-width-md; }
+.max-width-lg { max-width: $limit-width-lg; }
+.max-width-xl { max-width: $limit-width-xl; }
 
-.min-width-xs { min-width: 200px; }
-.min-width-sm { min-width: 220px; }
-.min-width-md { min-width: 20px; }
-.min-width-lg { min-width: 260px; }
-.min-width-xl { min-width: 400px; }
+.min-width-xs { min-width: $limit-width-xs; }
+.min-width-sm { min-width: $limit-width-sm; }
+.min-width-md { min-width: $limit-width-md; }
+.min-width-lg { min-width: $limit-width-lg; }
+.min-width-xl { min-width: $limit-width-xl; }
 
-.max-height-xs { max-height: 200px; }
-.max-height-sm { max-height: 250px; }
-.max-height-md { max-height: 300px; }
-.max-height-lg { max-height: 350px; }
-.max-height-xl { max-height: 400px; }
+.max-height-xs { max-height: $limit-height-xs; }
+.max-height-sm { max-height: $limit-height-sm; }
+.max-height-md { max-height: $limit-height-md; }
+.max-height-lg { max-height: $limit-height-lg; }
+.max-height-xl { max-height: $limit-height-xl; }
 
-.min-height-xs { min-height: 200px; }
-.min-height-sm { min-height: 250px; }
-.min-height-md { min-height: 300px; }
-.min-height-lg { min-height: 350px; }
-.min-height-xl { min-height: 400px; }
+.min-height-xs { min-height: $limit-height-xs; }
+.min-height-sm { min-height: $limit-height-sm; }
+.min-height-md { min-height: $limit-height-md; }
+.min-height-lg { min-height: $limit-height-lg; }
+.min-height-xl { min-height: $limit-height-xl; }
+
+.max-height-none { max-height: none; }
+.min-height-none { max-height: none; }
 
 /* -------------------------- */
 /* || --class attaching -- || */
@@ -1383,17 +1476,32 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) { 
-	.lg-max-width-xs { max-width: 200px; }
-	.lg-max-width-sm { max-width: 250px; }
-	.lg-max-width-md { max-width: 300px; }
-	.lg-max-width-lg { max-width: 350px; }
-	.lg-max-width-xl { max-width: 400px; }
+	.lg-max-width-xs { max-width: $limit-width-xs; }
+	.lg-max-width-sm { max-width: $limit-width-sm; }
+	.lg-max-width-md { max-width: $limit-width-md; }
+	.lg-max-width-lg { max-width: $limit-width-lg; }
+	.lg-max-width-xl { max-width: $limit-width-xl; }
 
-	.lg-min-width-xs { min-width: 200px; }
-	.lg-min-width-sm { min-width: 250px; }
-	.lg-min-width-md { min-width: 300px; }
-	.lg-min-width-lg { min-width: 350px; }
-	.lg-min-width-xl { min-width: 400px; }
+	.lg-min-width-xs { min-width: $limit-width-xs; }
+	.lg-min-width-sm { min-width: $limit-width-sm; }
+	.lg-min-width-md { min-width: $limit-width-md; }
+	.lg-min-width-lg { min-width: $limit-width-lg; }
+	.lg-min-width-xl { min-width: $limit-width-xl; }
+
+	.lg-max-height-xs { max-height: $limit-height-xs; }
+	.lg-max-height-sm { max-height: $limit-height-sm; }
+	.lg-max-height-md { max-height: $limit-height-md; }
+	.lg-max-height-lg { max-height: $limit-height-lg; }
+	.lg-max-height-xl { max-height: $limit-height-xl; }
+
+	.lg-min-height-xs { min-height: $limit-height-xs; }
+	.lg-min-height-sm { min-height: $limit-height-sm; }
+	.lg-min-height-md { min-height: $limit-height-md; }
+	.lg-min-height-lg { min-height: $limit-height-lg; }
+	.lg-min-height-xl { min-height: $limit-height-xl; }
+
+	.lg-max-height-none { max-height: none; }
+	.lg-min-height-none { max-height: none; }
 }
 
 /* Landscape tablets and medium desktops */
@@ -1409,6 +1517,24 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 	.md-min-width-md { min-width: 300px; }
 	.md-min-width-lg { min-width: 350px; }
 	.md-min-width-xl { min-width: 400px; }
+
+	.md-max-height-xs { max-height: $limit-height-xs; }
+	.md-max-height-sm { max-height: $limit-height-sm; }
+	.md-max-height-md { max-height: $limit-height-md; }
+	.md-max-height-lg { max-height: $limit-height-lg; }
+	.md-max-height-xl { max-height: $limit-height-xl; }
+
+	.md-min-height-xs { min-height: $limit-height-xs; }
+	.md-min-height-sm { min-height: $limit-height-sm; }
+	.md-min-height-md { min-height: $limit-height-md; }
+	.md-min-height-lg { min-height: $limit-height-lg; }
+	.md-min-height-xl { min-height: $limit-height-xl; }	
+
+	.md-max-height-none { max-height: none; }
+	.md-min-height-none { max-height: none; }
+
+
+
 }
 
 /* Portrait tablets and small desktops */
@@ -1424,6 +1550,22 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 	.sm-min-width-md { min-width: 300px; }
 	.sm-min-width-lg { min-width: 350px; }
 	.sm-min-width-xl { min-width: 400px; }
+
+	.sm-max-height-xs { max-height: $limit-height-xs; }
+	.sm-max-height-sm { max-height: $limit-height-sm; }
+	.sm-max-height-md { max-height: $limit-height-md; }
+	.sm-max-height-lg { max-height: $limit-height-lg; }
+	.sm-max-height-xl { max-height: $limit-height-xl; }
+
+	.sm-min-height-xs { min-height: $limit-height-xs; }
+	.sm-min-height-sm { min-height: $limit-height-sm; }
+	.sm-min-height-md { min-height: $limit-height-md; }
+	.sm-min-height-lg { min-height: $limit-height-lg; }
+	.sm-min-height-xl { min-height: $limit-height-xl; }
+
+	.sm-max-height-none { max-height: none; }
+	.sm-min-height-none { max-height: none; }
+
 }
 
 /* Landscape phones and portrait tablets */
@@ -1439,6 +1581,22 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 	.xs-min-width-md { min-width: 300px; }
 	.xs-min-width-lg { min-width: 350px; }
 	.xs-min-width-xl { min-width: 400px; }
+
+	.xs-max-height-xs { max-height: $limit-height-xs; }
+	.xs-max-height-sm { max-height: $limit-height-sm; }
+	.xs-max-height-md { max-height: $limit-height-md; }
+	.xs-max-height-lg { max-height: $limit-height-lg; }
+	.xs-max-height-xl { max-height: $limit-height-xl; }
+
+	.xs-min-height-xs { min-height: $limit-height-xs; }
+	.xs-min-height-sm { min-height: $limit-height-sm; }
+	.xs-min-height-md { min-height: $limit-height-md; }
+	.xs-min-height-lg { min-height: $limit-height-lg; }
+	.xs-min-height-xl { min-height: $limit-height-xl; }
+
+	.xs-max-height-none { max-height: none; }
+	.xs-min-height-none { max-height: none; }
+
 }
 
 /* Portrait phones and smaller */
@@ -1454,5 +1612,104 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 	.xs-min-width-md { min-width: 300px; }
 	.xs-min-width-lg { min-width: 350px; }
 	.xs-min-width-xl { min-width: 400px; }
+
+	.xs-max-height-xs { max-height: $limit-height-xs; }
+	.xs-max-height-sm { max-height: $limit-height-sm; }
+	.xs-max-height-md { max-height: $limit-height-md; }
+	.xs-max-height-lg { max-height: $limit-height-lg; }
+	.xs-max-height-xl { max-height: $limit-height-xl; }
+
+	.xs-min-height-xs { min-height: $limit-height-xs; }
+	.xs-min-height-sm { min-height: $limit-height-sm; }
+	.xs-min-height-md { min-height: $limit-height-md; }
+	.xs-min-height-lg { min-height: $limit-height-lg; }
+	.xs-min-height-xl { min-height: $limit-height-xl; }
+
+	.xs-max-height-none { max-height: none; }
+	.xs-min-height-none { max-height: none; }
+
 }
 
+
+
+/* --------------------------------------------- BLOCKS -------------------------------------------- */
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+.block{
+	display: block;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.inline{
+	display: inline;
+}
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */ 
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) { 
+
+	.lg-block{ display: block; }
+	.lg-inline-block{ display: inline-block; }
+	.lg-inline{ display: inline; }
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+	.md-block{ display: block; }
+	.md-inline-block{ display: inline-block; }
+	.md-inline{ display: inline; }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	.sm-block{ display: block; }
+	.sm-inline-block{ display: inline-block; }
+	.sm-inline{ display: inline; }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) { 
+
+	.xs-block{ display: block; }
+	.xs-inline-block{ display: inline-block; }
+	.xs-inline{ display: inline; }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) { 
+
+	.xs-block{ display: block; }
+	.xs-inline-block{ display: inline-block; }
+	.xs-inline{ display: inline; }
+
+}

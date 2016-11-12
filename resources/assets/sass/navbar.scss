@@ -7,7 +7,7 @@
 
 .navbar-default .navbar-nav > .active > a{
     background-color: $light-color !important;
-    color: $dark-color !important;
+
 }
 
 
@@ -15,12 +15,12 @@
 
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: $dark-color;
+    
     background-color: $dark-color;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: $dark-color;
+
     background-color: $light-color;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a {
-    color: $dark-color;
+    
     background-color: $light-color;
 
     margin: 0px;

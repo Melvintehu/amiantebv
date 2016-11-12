@@ -2,7 +2,9 @@
 
 
 @section('content')
-
+	
+    @include('partials.banner')
+	
 	<section class="container">
 		
 		<div class="row">
@@ -24,39 +26,51 @@
 
 		<div class="row all-row-centered">
 
+
+		<!-- blok 1 -->
 			<div class="all-col-centered 
-						col-lg-4 
-						col-md-4 
-						xs-space-outside-down-md 
-						
+						col-lg-4
+						col-md-4
+						col-sm-12
+						sm-space-outside-down-md
+						col-xs-12 
+						xs-space-outside-down-md
+						xs-max-width-lg		
+						 
 			">
 
 				<div  class="bg-secondary 
 							 row 
 							 space-outside-sides-xs 
 							 pointer
+							 no-overflow
 				">
 					
-					<div class="col-lg-3 
-								col-md-3 
-								xs-space-inside-md 
-								block
-
-						">
+					<div class="col-lg-3
+								col-md-2
+								col-sm-12
+								sm-space-inside-md
+								col-xs-12
+								xs-space-inside-sm
+								
+					">
 						
 
 					</div>
 
-					<div 	class="col-lg-9 
-								   col-md-9 
-								   bg-accent   
-								   space-inside-sm 
-								   space-inside-left-md
-								   min-height-md
-
+					<div class="col-lg-9
+								lg-min-height-sm
+								col-md-10
+								col-sm-12
+								sm-space-inside-md
+								col-xs-12
+								xs-text-center
+								bg-accent 
+								space-inside-sm 
+								space-inside-sides-md
 					">
 						
-						<h5 class="space-outside-down-sm ">Bedrijven, sdfoverheid en particulier</h5>
+						<h5 class="space-outside-down-sm ">Bedrijven, overheid en particulier</h5>
 
 						<p class="text-color-accent-darken-md ">
 							Voor zowel bedrijven, overheid en particulier
@@ -67,17 +81,33 @@
 							uitvoeren in alles soorten gebouwen. 
 						</p>
 
+						<a class="space-inside-sm
+								  space-inside-sides-md
+								  space-outside-up-md
+								  hidden-md hidden-lg
+								  bg-secondary
+								  shadow-xs
+								  text-color-light
+								  inline-block
+
+						" href="#">Meer lezen</a>
+
 					</div>
 
 				</div>
 
 			</div>
 
-			<div class="col-lg-4 
-						all-col-centered 
-						col-md-4 
-						xs-space-outside-down-md 
 
+			<!-- blok 2 -->
+			<div class="all-col-centered 
+						col-lg-4 
+						col-md-4
+						col-sm-12
+						sm-space-outside-down-md
+						col-xs-12
+						xs-space-outside-down-md
+						xs-max-width-lg	 	 
 			">
 
 				<div class="bg-main 
@@ -86,21 +116,27 @@
 							pointer
 				">
 					
-					<div class="col-lg-3 
-								col-md-3 
-								xs-space-inside-md  
-								block
+					<div class="col-lg-3
+								col-md-2
+								col-sm-12
+								sm-space-inside-md
+								col-xs-12
+								xs-space-inside-sm
 					">
 						
 
 					</div>
 
-					<div style="min-height: 230px;" class="col-lg-9 
-														   col-md-9 
-														   bg-accent 
-														   space-inside-sm 
-														   space-inside-sides-md 
-														   no-overflow
+					<div  class="col-lg-9
+								 lg-min-height-sm
+								 col-md-10
+								 col-sm-12
+								 sm-space-inside-md
+								 col-xs-12
+								 xs-text-center
+								 bg-accent 
+								 space-inside-sm 
+								 space-inside-sides-md
 					">
 						
 						<h5 class="space-outside-down-sm">Bedrijven, overheid en particulier</h5>
@@ -113,6 +149,17 @@
 							vakbekwaamheid kan Amiante inventarisaties
 							uitvoeren in alles soorten gebouwen.
 						</p>
+
+						<a class="space-inside-sm
+								  space-inside-sides-md
+								  space-outside-up-md
+								  hidden-md hidden-lg
+								  bg-main
+								  shadow-xs
+								  text-color-light
+								  inline-block
+
+						" href="#">Meer lezen</a>
 
 					</div>
 
@@ -120,20 +167,50 @@
 
 			</div>
 
-			<div  class="col-lg-4 all-col-centered col-md-4 xs-space-outside-down-md ">
 
-				<div class="bg-dark row space-outside-sides-xs  pointer">
+			<!-- blok 3 -->
+			<div  class="all-col-centered 
+						 col-lg-4
+						 col-md-4
+						 col-sm-12 
+						 col-xs-12
+						 xs-max-width-lg
+
+			">
+
+				<div class="bg-dark 
+							row 
+							space-outside-sides-xs 
+							pointer 
+				">
 					
-					<div class="col-lg-3 col-md-3  xs-space-inside-md  block">
+					<div class="col-lg-3
+								col-md-2
+								col-sm-12
+								sm-space-inside-md
+								col-xs-12
+								xs-space-inside-sm
+								
+					">
 						
 
 					</div>
 
-					<div style="min-height: 230px;" class="col-lg-9 col-md-9 bg-accent space-inside-sm space-inside-left-md">
+					<div  class="col-lg-9
+								 lg-min-height-sm
+								 col-md-10
+								 col-sm-12
+								 sm-space-inside-md
+								 col-xs-12
+								 xs-text-center
+								 bg-accent 
+								 space-inside-sm 
+								 space-inside-sides-md
+					">
 						
-						<h5 class="space-outside-down-sm">Bedrijven, overheid en particulier</h5>
+						<h5 class="space-outside-down-sm xs-text-center">Bedrijven, overheid en particulier</h5>
 
-						<p class="text-color-accent-darken-md">
+						<p class="text-color-accent-darken-md xs-text-center">
 							Voor zowel bedrijven, overheid en particulier
 							voert Amiante alle voorkomende inventarisaties
 							uit. Door de grote ervaring van onze
@@ -141,6 +218,19 @@
 							vakbekwaamheid kan Amiante inventarisaties
 							uitvoeren in alles soorten gebouwen.
 						</p>
+
+
+						<a class="space-inside-sm
+								  space-inside-sides-md
+								  space-outside-up-md
+								  hidden-md hidden-lg
+								  bg-dark
+								  shadow-xs
+								  text-color-light
+								  inline-block
+
+
+						" href="#">Meer lezen</a>
 
 					</div>
 
@@ -154,13 +244,42 @@
 
 	</section>
 
-	<section class="bg-accent bg-accent-hover-darken-xs transition-xs-slow space-inside-lg">
+	<section class="space-inside-lg
+					
+					bg-accent  
+	">
 		
-		<div class="container space-inside-lg">
+		<div class="container 
+					space-inside-lg 
+					sm-space-inside-xs
+					
+		">
 			
-			<div class="row space-inside-down-lg">
+			<div class="row space-inside-down-lg ">
 				
-				<div class="col-lg-7 col-xs-12 space-inside-right-md xs-text-center">
+				<div class="col-xs-12 visible-xs xs-text-center">
+					
+					<div  style="height:150px;width:150px;"  class="image 
+																   lg-float-right 
+																   inline-block 
+																   xs-space-outside-up-xs
+																   xs-space-outside-down-md
+
+																   space-outside-up-lg
+					">
+						
+						<img  style="object-fit:crop" src="images/gas-mask-icon.png">
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-7  
+							col-md-7 
+							col-xs-12
+							space-inside-right-md 
+							xs-text-center
+				">
 					
 					<h1 class="text-light space-outside-down-sm">Over het bedrijf</h1>
 
@@ -221,6 +340,7 @@
 																   inline-block 
 																   xs-space-outside-up-lg
 																   space-outside-up-lg
+																   hidden-xs
 					">
 						
 						<img  style="object-fit:crop" src="images/gas-mask-icon.png">
@@ -255,7 +375,9 @@
 						col-md-6 
 						col-sm-6 
 						col-xs-12 
-						limit-width-xs  
+						limit-width-xs 
+
+						max-width-xl 
 						space-outside-down-md
 						all-col-centered
 
@@ -337,7 +459,7 @@
 						col-md-6 
 						col-sm-6 
 						col-xs-12 
-						limit-width-xs  
+						max-width-xl  
 						space-outside-down-md
 						all-col-centered
 
@@ -418,7 +540,7 @@
 						col-md-6 
 						col-sm-6 
 						col-xs-12 
-						limit-width-xs  
+						max-width-xl  
 						space-outside-down-md
 						all-col-centered
 
