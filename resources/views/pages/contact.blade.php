@@ -58,8 +58,12 @@
 
 						<div class="col-lg-12 space-inside-xs">
 
-							 {!! Form::submit('Verzenden', ['class' => 'space-inside-sides-md space-inside-xs btn-standard bg-main text-color-light text-hover-light
-							shadow-xs-hover 
+							 {!! Form::submit('Verzenden', ['class' => 'space-inside-sides-md 
+							 space-inside-xs 
+							 btn-standard 
+							 bg-main 
+							 text-color-light 
+							shadow-xs
 							transition-normal ']) !!}
 
 						</div>
