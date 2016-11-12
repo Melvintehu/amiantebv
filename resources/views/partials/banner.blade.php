@@ -48,12 +48,14 @@
 			<div class="overlay-banner"></div>
 
 
-			<div class='underlay' >
+			<div  class='underlay ' >
 
 				<!-- de achtergrond foto -->
 				<img src="/images/foto.jpeg" style='object-fit: contain;' alt='banner image amiante' />
 
 			</div>
+
+
 
 	</div>	
 
