@@ -86,8 +86,8 @@
 		      
 		      <ul class="nav navbar-nav navbar-right">
 		      
-				<li class="{{ Request::path() == '/' ? 'active' : '' }} ">
-					<a class="xs-text-center font-sm text-light" href="/">
+				<li >
+					<a class="xs-text-center font-sm text-light {{ Request::path() == '/' ? 'bg-main text-color-light' : '' }} " href="/">
 						Home
 					</a>
 				</li>
@@ -98,26 +98,26 @@
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light" href="/projecten"> 
+				<li class="{{ Request::path() == 'diensten' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light" href="/diensten"> 
 						Diensten 
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'betimmering-interieur' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light" href="/betimmering-interieur">
+				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light" href="/projecten">
 						Projecten
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'betimmering-exterieur' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light"  href="/betimmering-exterieur">
+				<li class="{{ Request::path() == 'actueel' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light"  href="/actueel">
 						Actueel
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'betimmering-schepen' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light" href="/betimmering-schepen">
+				<li class="{{ Request::path() == 'contact' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light" href="/contact">
 						Contact
 					</a>
 				</li>
