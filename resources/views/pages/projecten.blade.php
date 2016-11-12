@@ -5,7 +5,7 @@
 
 	<section class="bg-accent space-inside-lg">
 		
-		<div class="container space-inside-lg">
+		<div class="container ">
 			
 			<div class="row space-inside-down-sm">
 
