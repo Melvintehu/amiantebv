@@ -3,9 +3,9 @@
 
 @section('content')
 
-	<section class="bg-accent space-inside-lg">
+	<section class="bg-accent space-inside-md">
 		
-		<div class="container space-inside-lg">
+		<div class="container space-inside-md">
 			
 			<div class="row space-inside-down-sm">
 
