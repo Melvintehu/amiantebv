@@ -671,6 +671,8 @@ a.btn-round, input[type=submit].btn-round, button.btn-round{
 	border-width: $border-thickness;
 }
 
+.border-none{ border: none; }
+
 /* ---- color ---- */
 
 .border-light{ border-color: $background-color-light; }
