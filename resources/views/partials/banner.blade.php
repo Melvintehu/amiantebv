@@ -8,7 +8,7 @@
 					
 					<div class="row space-inside-up-sm">
 						
-						<div class="col-lg-6 col-md-6 float-right">
+						<div class="col-lg-6 col-md-6 float-right animated fadeInDown wow">
 							
 							<h1 class="text-color-dark space-outside-down-md">
 

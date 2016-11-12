@@ -36,6 +36,8 @@
 
         @include('partials.footer')
 
+        @include('partials.scripts')
+
     </body>
 
 </html>
