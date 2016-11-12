@@ -96,6 +96,7 @@
 		      
 		      <ul class="nav navbar-nav navbar-right">
 		      
+
 				<li class=" ">
 					<a class="{{ Request::path() == '/' ? ' xs-text-color-light text-thin xs-bg-main' : 'text-color-dark text-light' }}  xs-text-center font-sm " href="/">
 						Home
@@ -107,6 +108,7 @@
 						Bedrijfsinformatie
 					</a>
 				</li>
+
 
 				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/projecten"> 
@@ -120,11 +122,13 @@
 					</a>
 				</li>
 
+
 				<li class="{{ Request::path() == 'betimmering-exterieur' ? 'active' : '' }}">
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/betimmering-exterieur">
 						Actueel
 					</a>
 				</li>
+
 
 				<li class="{{ Request::path() == 'betimmering-schepen' ? 'active' : '' }}">
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/betimmering-schepen">

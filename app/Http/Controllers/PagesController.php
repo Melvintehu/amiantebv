@@ -35,13 +35,13 @@ class PagesController extends Controller
    	{
    		
    	
-   		$data = [
-   			'sections' => $this->getSections('projecten'),
-   			'projects' => $this->getProjects($filter),
-   			'disciplines' => Discipline::all(),
-            'filter' => $filter,
+   		// $data = [
+   		// 	'sections' => $this->getSections('projecten'),
+   		// 	'projects' => $this->getProjects($filter),
+   		// 	'disciplines' => Discipline::all(),
+     //        'filter' => $filter,
 
-   		];
+   		// ];
 
 
    		return view('pages.projecten', compact('data'));
@@ -68,14 +68,12 @@ class PagesController extends Controller
    		return view('pages.contact', compact('data'));
    	}
 
-	public function bedrijfsinformatie()
-	{
+      public function diensten()
+      {
+         return view('pages.diensten');
+      }  
+   public function bedrijfsinformatie()
 
-		//$sections = $this->getSections('over-ons');
-
-		// $data = [
-		// 	'sections' => $sections,
-		// ];
 
 		return view('pages.bedrijfsinformatie');
 	}	
@@ -138,11 +136,11 @@ class PagesController extends Controller
 	 */
    	protected function getSections($pageName)
    	{
-   		$page = Page::where('name', $pageName)->first();
+   		// $page = Page::where('name', $pageName)->first();
 
-		$sections = $page->sections;
+		   //  $sections = $page->sections;
 
-   		return Section::setPagePositions($sections);
+   		// return Section::setPagePositions($sections);
    	} 
 
 }
