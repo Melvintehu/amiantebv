@@ -37,7 +37,11 @@
         @include('partials.footer')
 
         @include('partials.scripts')
+        <div style="position:fixed;right: 10px; bottom: 10px;" class=" col-lg-4 pointer shadow-xs shadow-xs-hover transition-normal absolute bg-accent space-inside-sides-lg space-inside-sm">
+        
+            <h3 class="text-light">Wat te doen bij <span class="text-bold">calamiteiten</span>? <span class="text-bold text-color-secondary float-right">0031 638473167</span>  </h3>
 
+        </div>
     </body>
 
 </html>
