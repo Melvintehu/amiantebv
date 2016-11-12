@@ -18,9 +18,14 @@
 						  xs-block
 						  xs-text-center
 						  xs-space-inside-right-lg-none
+
 				">
 					Email: 
-					<span class="text-color-secondary">
+					<span class="text-color-secondary								
+						  		text-hover-bold
+						  		transition-normal
+						  		pointer
+					">
 						info@amiante-inspections.nl
 					</span>
 				</p>
@@ -35,7 +40,11 @@
 						  xs-space-inside-sides-lg-none
 				">
 					Telefoon:
-					<span class="text-color-secondary">
+					<span class="text-color-secondary
+								text-hover-bold
+						  		transition-normal
+						  		pointer
+					">
 						+31 63 84 73 167
 					</span>
 				</p>
@@ -50,7 +59,11 @@
 						  xs-space-inside-sides-lg-none
 				">
 					Adres: 
-					<span class="text-color-secondary">
+					<span class="text-color-secondary
+								text-hover-bold
+						  		transition-normal
+						  		pointer
+					">
 						 Westkern 4, 9288 CD Kootstertille
 					</span>
 				</p>
@@ -93,8 +106,14 @@
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+		    	<div style='width:150px;' class='left image space-inside-xs'>
+
+		    		<img src='images/amiante-logo-no-text.jpg' style='object-fit: contain;' />
+
+		    	</div>
 		      
-		      <ul class="nav navbar-nav navbar-right">
+		      <ul class="nav navbar-nav navbar-right ">
 		      
 
 				<li class=" ">
