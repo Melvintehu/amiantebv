@@ -22,9 +22,7 @@ Route::get('/', 'PagesController@homepage');
 Route::get('/over-ons', 'PagesController@overOns');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/diensten', 'PagesController@diensten');
-
-
-
+Route::get('/projecten', 'PagesController@projecten');
 Route::get('/bedrijfsinformatie', 'PagesController@bedrijfsinformatie');
 
 

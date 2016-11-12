@@ -48,69 +48,38 @@ class PagesController extends Controller
    	}
 
 
-   	public function project($id, $projectName)
-   	{	
+	public function project($id, $projectName)
+	{	
 
-   		$data = [
-   			'project' => Project::find($id),
-   			'disciplines' => Discipline::all(),
-   		];
+		$data = [
+			'project' => Project::find($id),
+			'disciplines' => Discipline::all(),
+		];
 
-   		return view('pages.project.show', compact('data'));
-   	}
+		return view('pages.project.show', compact('data'));
+	}
 
-   	public function contact()
-   	{
-   		$data = [
-   			'sections' => $this->getSections('contact'),
-   		];
+	public function contact()
+	{
+		$data = [
+			'sections' => $this->getSections('contact'),
+		];
 
-   		return view('pages.contact', compact('data'));
-   	}
+		return view('pages.contact', compact('data'));
+	}
 
-      public function diensten()
-      {
-         return view('pages.diensten');
-      }  
+   public function diensten()
+   {
+      return view('pages.diensten');
+   }  
+
    public function bedrijfsinformatie()
-
+   {
 
 		return view('pages.bedrijfsinformatie');
 	}	
 
-	public function interieur()
-	{	
-		$data = [
-			'sections' => $this->getSections('betimmering-interieur'),
-         'projects' => $this->getProjects('interieur')->take(3),
-		];
 
-		return view('pages.betimmering-interieur', compact('data'));
-	}
-
-	public function exterieur()
-	{
-
-		$data = [
-			'sections' => $this->getSections('betimmering-exterieur'),
-         'projects' => $this->getProjects('interieur')->take(3),
-		];
-
-		return view('pages.betimmering-exterieur', compact('data'));
-	}
-
-	public function schepen()
-	{
-
-
-		$data = [
-			'sections' => $this->getSections('betimmering-schepen'),
-         'projects' => $this->getProjects('interieur')->take(3),
-		];
-
-		return view('pages.betimmering-schepen', compact('data'));
-
-	}
 
 
 	// protected methods

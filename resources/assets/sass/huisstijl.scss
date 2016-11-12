@@ -549,11 +549,13 @@ h1,h2,h3,h4,h5{
 /* || --classes-- || */
 /* ----------------- */
 
+
 .btn-standard {
 	padding: 15px 55px;
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-block;
+	border:none;
 }
 
 .btn-round {
@@ -572,6 +574,7 @@ a.btn-standard, input[type=submit].btn-standard, button.btn-standard
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-block;
+	border: none;
 }
 
 a.btn-round, input[type=submit].btn-round, button.btn-round{

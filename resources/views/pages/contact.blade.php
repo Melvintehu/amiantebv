@@ -5,7 +5,7 @@
 
 	<section class="bg-accent space-inside-lg">
 		
-		<div class="container space-inside-lg">
+		<div class="container">
 			
 			<div class="row space-inside-down-sm">
 
@@ -57,7 +57,7 @@
 
 						<div class="col-lg-12 space-inside-xs">
 
-							 {!! Form::submit('Verzenden', ['class' => 'btn btn-standard bg-main text-color-light text-hover-light
+							 {!! Form::submit('Verzenden', ['class' => 'space-inside-sides-md space-inside-xs btn-standard bg-main text-color-light text-hover-light
 							shadow-xs-hover 
 							transition-normal ']) !!}
 

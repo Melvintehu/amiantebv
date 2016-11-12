@@ -111,27 +111,27 @@
 
 
 				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/projecten"> 
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/diensten"> 
 						Diensten 
 					</a>
 				</li>
 
 				<li class="{{ Request::path() == 'betimmering-interieur' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/betimmering-interieur">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/projecten">
 						Projecten
 					</a>
 				</li>
 
 
 				<li class="{{ Request::path() == 'betimmering-exterieur' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/betimmering-exterieur">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/actueel">
 						Actueel
 					</a>
 				</li>
 
 
 				<li class="{{ Request::path() == 'betimmering-schepen' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/betimmering-schepen">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/contact">
 						Contact
 					</a>
 				</li>
