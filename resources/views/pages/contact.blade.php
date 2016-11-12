@@ -3,9 +3,10 @@
 
 @section('content')
 
-	<section class="bg-accent space-inside-lg">
-		
+	<section class="bg-accent space-inside-md">
+
 		<div class="container">
+
 			
 			<div class="row space-inside-down-sm">
 
@@ -51,7 +52,7 @@
 
 						<div class="col-lg-12 space-inside-xs">
 
-							{!! Form::textarea('bericht', null, ['required', 'placeholder' => 'Uw bericht of opmerking', 'class' => 'textarea form-control border-secondary text-color-accent']) !!}
+							{!! Form::textarea('bericht', null, ['required', 'placeholder' => 'Uw bericht of opmerking', 'class' => 'textarea form-control border-secondary']) !!}
 
 						</div>
 

@@ -1,21 +1,14 @@
-<div class="container-fluid no-overflow hidden-xs hidden-sm">
+<div class="container-fluid no-overflow hidden-xs hidden-sm banner">
 
 	<div class="row ">
-		
-		
-		<div class="col-lg-12 
-					banner 
-					push-aside-xl 
-					bg-accent
-		">
 
 			<div class="container">
 				
-				<div class="col-lg-12">
+				<div class="col-lg-12 space-inside-up-xl">
 					
-					<div class="row">
+					<div class="row space-inside-up-sm">
 						
-						<div class="col-lg-6 lg-float-right">
+						<div class="col-lg-6 col-md-6 float-right animated fadeInDown wow">
 							
 							<h1 class="text-color-dark space-outside-down-md">
 
@@ -48,16 +41,19 @@
 
 				</div>
 
+			</div>
 
-				<!-- Filter voor het donker maken van de foto -->
-				<!-- <div class="overlay-banner"></div> -->
 
+			<!-- Filter voor het donker maken van de foto -->
+			<div class="overlay-banner"></div>
+
+
+			<div class='underlay' >
 
 				<!-- de achtergrond foto -->
-				<img src="/images/foto2.jpg"   alt='banner image amiante' />
+				<img src="/images/foto.jpeg" style='object-fit: contain;' alt='banner image amiante' />
 
 			</div>
-		</div>
 
 	</div>	
 
