@@ -103,15 +103,7 @@
 
 	<div class="container-fluid">
 
-		<div class="row">
-
-	        <div class="col-lg-12">
-
-	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.709244767632!2d6.059278615825726!3d53.00761217990946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c85b3b0ca92a65%3A0xd3ba0b7864a8fb13!2sLeitswei+6%2C+8401+CL+Gorredijk!5e0!3m2!1snl!2snl!4v1478872590940" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-	    	</div>
-
-    	</div>
+	    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.709244767632!2d6.059278615825726!3d53.00761217990946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c85b3b0ca92a65%3A0xd3ba0b7864a8fb13!2sLeitswei+6%2C+8401+CL+Gorredijk!5e0!3m2!1snl!2snl!4v1478872590940" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     </div>
 
