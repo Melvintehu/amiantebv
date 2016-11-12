@@ -22,16 +22,11 @@ Route::get('/', 'PagesController@homepage');
 Route::get('/over-ons', 'PagesController@overOns');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/diensten', 'PagesController@diensten');
-
-// projects
 Route::get('/projecten', 'PagesController@projecten');
-Route::get('/projecten/{filter}', 'PagesController@projecten');
-Route::get('/project/{id}/{projectName}', 'PagesController@project');
+Route::get('/bedrijfsinformatie', 'PagesController@bedrijfsinformatie');
 
 
-Route::get('/betimmering-interieur', 'PagesController@interieur');
-Route::get('/betimmering-exterieur', 'PagesController@exterieur');
-Route::get('/betimmering-schepen', 'PagesController@schepen');
+
 
 
 Route::group(['prefix' => 'cms', 'middleware' => ['auth'] ], function () {

@@ -54,7 +54,7 @@
 
 
 				<!-- de achtergrond foto -->
-				<img src="/images/foto2.jpg"   alt='banner image mentor4you' />
+				<img src="/images/foto2.jpg"   alt='banner image amiante' />
 
 			</div>
 		</div>

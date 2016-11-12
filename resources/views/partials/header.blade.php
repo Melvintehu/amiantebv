@@ -7,13 +7,17 @@
 		
 		<div class="row">
 			
-			<div class="col-lg-12 font-xs">
+			<div class="col-lg-12 font-xs reset-padding">
 				
 				<p class="border-right 
 						  inline-block 
 						  border-accent 
 						  space-inside-xs 
 						  space-inside-right-sm
+
+						  xs-block
+						  xs-text-center
+						  xs-space-inside-right-lg-none
 				">
 					Email: 
 					<span class="text-color-secondary">
@@ -26,6 +30,9 @@
 						  border-accent 
 						  space-inside-xs 
 						  space-inside-sides-sm
+						  xs-block
+						  xs-text-center
+						  xs-space-inside-sides-lg-none
 				">
 					Telefoon:
 					<span class="text-color-secondary">
@@ -38,6 +45,9 @@
 						  border-accent 
 						  space-inside-xs 
 						  space-inside-sides-sm
+						  xs-block
+						  xs-text-center
+						  xs-space-inside-sides-lg-none
 				">
 					Adres: 
 					<span class="text-color-secondary">
@@ -86,38 +96,42 @@
 		      
 		      <ul class="nav navbar-nav navbar-right">
 		      
-				<li >
-					<a class="xs-text-center font-sm text-light {{ Request::path() == '/' ? 'bg-main text-color-light' : '' }} " href="/">
+
+				<li class=" ">
+					<a class="{{ Request::path() == '/' ? ' xs-text-color-light text-thin xs-bg-main' : 'text-color-dark text-light' }}  xs-text-center font-sm " href="/">
 						Home
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'over-ons' ? 'active' : '' }}">
-					<a class="xs-text-center font-sm text-light"  href="/over-ons">
+				<li class="{{ Request::path() == 'Bedrijfsinformatie' ? 'active' : '' }}">
+					<a class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/bedrijfsinformatie">
 						Bedrijfsinformatie
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'diensten' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light" href="/diensten"> 
+
+				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/diensten"> 
 						Diensten 
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light" href="/projecten">
+				<li class="{{ Request::path() == 'betimmering-interieur' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/projecten">
 						Projecten
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'actueel' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light"  href="/actueel">
+
+				<li class="{{ Request::path() == 'betimmering-exterieur' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/actueel">
 						Actueel
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'contact' ? 'active' : '' }}">
-					<a  class="xs-text-center font-sm text-light" href="/contact">
+
+				<li class="{{ Request::path() == 'betimmering-schepen' ? 'active' : '' }}">
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/contact">
 						Contact
 					</a>
 				</li>
