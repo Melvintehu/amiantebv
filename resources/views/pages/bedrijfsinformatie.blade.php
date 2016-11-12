@@ -3,8 +3,13 @@
 @section('content')
 	
 
-	<section class="container">
+	<section class="bg-accent">
 		
+		<div class="container">
+			
+			
+
+		</div>
 
 	</section>
 
