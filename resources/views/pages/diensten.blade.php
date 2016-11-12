@@ -28,7 +28,7 @@
 				</p>
 			</div>
 
-			<div class="col-lg-6 space-inside-sides-xl">
+			<div class="col-lg-6 space-inside-sides-xl xs-space-outside-up-md">
 
 				<h4 class='space-outside-down-sm'>Amiante is gespecialiseerd in:</h4>
 
