@@ -6,11 +6,13 @@
 	
     @include('partials.banner')
 
+    @include('partials.search')
+
 	<section class="container">
 		
 		<div class="row">
 			
-			<div class="col-lg-12 space-inside-lg text-center">
+			<div class="col-lg-12 space-inside-md text-center">
 				
 				<h1  class="text-thin space-inside-down-sm"> Onze <span class="text-bold">Services</span></h1>
 
