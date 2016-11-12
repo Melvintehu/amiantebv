@@ -942,7 +942,7 @@ h3{ font-size: $font-size-md; }
 .font-secondary{ font-family: $font-heading; }
 
 
-/* ---- text appearence classes ---- */
+/* ---- text appearance classes ---- */
 
 
 .uppercase{ text-transform: uppercase; }
@@ -990,6 +990,19 @@ h3{ font-size: $font-size-md; }
 .text-hover-main:hover{ color: $main-color !important; }
 .text-hover-secondary:hover{ color: $secondary-color !important; }
 .text-hover-accent:hover{ color: $accent-color !important; }
+
+/* ---- text properties hover ---- */
+
+.text-hover-bold:hover{  @extend .text-bold; }
+.text-hover-thin:hover{  @extend .text-thin; }
+.text-hover-light:hover{  @extend .text-light; }
+.text-hover-italic:hover{  @extend .text-italic; }
+.text-hover-oblique:hover{  @extend .text-oblique; }
+
+.text-hover-line-through:hover{  @extend .text-line-through; }
+.text-hover-underlined:hover{  @extend .text-underlined; }
+.text-hover-overlined:hover{  @extend .text-overlined; }
+
 
 /* ----------------------- */
 /* || --media queries-- || */
