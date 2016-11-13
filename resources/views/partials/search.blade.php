@@ -8,26 +8,29 @@
 
                 <div class="form-group">
 
-                    <div class="col-lg-7 col-md-7 col-sm-7">
-
-                        <input type="text" class="form-control 
+                    <div class="col-lg-12 col-md-12 col-sm-12 reset-padding ">
+                    <div class="float-right">
+                        <input style="position:relative;left:3px;" type="text" class="
+                                        border-none 
                                        border-hover-main 
                                        border-focus-main
                                        space-outside-up-xs
+                                       space-inside-sm
+                                       bg-accent
+                                        space-inside-left-sm
+                                       text-color-white
+                                       reset-margin
                                         " 
-                        id="searchbar-home" placeholder="Zoeken.." name="q"> 
-
-                    </div>
-
-                    <div class="col-lg-5 col-md-5 col-sm-5">
-
-                        <button type="button" class="btn-standard bg-main text-color-light space-inside-sides-md">
+                                id="searchbar-home" placeholder="Zoeken.." name="q"> 
+                                <button type="button" class="border-none bg-main text-color-light space-inside-sides-sm space-inside-sm inline-block">
 
                             <i class="glyphicon glyphicon-search"></i>
 
                         </button>
-
+                        </div>
                     </div>
+
+                   
 
                 </div>
 
