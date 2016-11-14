@@ -105,9 +105,9 @@
 
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 space-inside-sm ">
 
-		    	<div style='width:150px;' class='left image space-inside-xs'>
+		    	<div style='width:130px;position:relative; top:10px;' class='left image '>
 
 		    		<img src='images/amiante-logo-no-text.jpg' style='object-fit: contain;' />
 
