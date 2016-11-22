@@ -8,7 +8,7 @@
 
     @include('partials.search')
 
-	<section class="container">
+	<section class="container animated fadeInDown wow">
 		
 		<div class="row">
 			
@@ -25,7 +25,7 @@
 	</section>
 
 
-	<section class="container space-inside-down-lg">
+	<section class="container space-inside-down-lg animated fadeInDown wow">
 
 		<div class="row all-row-centered">
 
@@ -248,7 +248,9 @@
 	</section>
 
 	<section class="space-inside-lg
-					
+					animated
+					fadeInDown
+					wow
 					bg-accent  
 	">
 		
@@ -360,7 +362,7 @@
 
 	<!-- Projecten -->
 
-	<section class="container space-inside-lg">
+	<section class="container space-inside-lg animated fadeInDown wow">
 
 		<div class="row all-row-centered">
 
@@ -622,7 +624,7 @@
 
 	<!-- onze klanten -->
 
-	<section class="bg-accent">
+	<section class="bg-accent animated fadeInDown wow">
 
 		<div class="container space-inside-lg">
 			

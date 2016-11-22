@@ -13,12 +13,12 @@
 					
 					<h1 class="text-thin space-inside-down-sm">Onze <span class="text-bold">Diensten</span></h1>
 					
-					<p class="text-color-accent-darken-md font-md"> Hieronder onze recente projecten</p>
+					<p class="text-color-accent-darken-md font-md"> Hieronder vind je onze diensten</p>
 
 				</div>
 
 
-			<div class="col-lg-6 space-inside-sides-xl ">
+			<div class="col-lg-6 space-inside-sides-xl xs-space-outside-up-md">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac fermentum arcu. Quisque tortor dui, imperdiet quis lectus sit amet, vestibulum hendrerit nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tempus in leo et molestie. Sed lorem est, placerat id tincidunt vitae, molestie in ex. Cras ullamcorper finibus auctor. Pellentesque leo velit, tempor ut felis et, tristique facilisis arcu.
 				</p>

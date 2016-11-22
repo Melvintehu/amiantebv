@@ -1,4 +1,4 @@
-<div class='container space-outside-sm hidden-xs'>
+<div class='container space-outside-sm hidden-xs animated fadeInDown wow'>
 
     <div class="row">    
             
