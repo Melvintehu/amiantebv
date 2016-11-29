@@ -64,7 +64,7 @@
 						  		transition-normal
 						  		pointer
 					">
-						 Westkern 4, 9288 CD Kootstertille
+						 Leitswei 6, 8401 CL Gorredijk
 					</span>
 				</p>
 

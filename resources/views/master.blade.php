@@ -10,7 +10,7 @@
         <title>Laravel</title>
 
 
-        <title>Amiante Inspections B.V>. || Asbestinventarisatie</title>
+        <title>Amiante Inspections B.V. || Asbestinventarisatie</title>
 
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
