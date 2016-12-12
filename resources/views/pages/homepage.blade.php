@@ -93,7 +93,7 @@
 								  text-color-light
 								  inline-block
 
-						" href="#">Meer lezen</a>
+						" href="#">Meer  lezen</a>
 
 					</div>
 
