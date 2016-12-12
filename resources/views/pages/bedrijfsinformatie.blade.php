@@ -19,13 +19,16 @@
 
 
 			<div class="col-lg-6 space-inside-sides-xl ">
-				<h2>Advisering en begeleiding</h2>
+				<h2>Amiante bv is gespecialiseerd in:</h2>
 				<br/>
-				<p class='font-md'>
-					Voor zowel bedrijven, particulieren en overheidsinstanties verzorgen wij het gehele asbest en/of sloopproject. U kunt ook bij ons terecht voor advisering en begeleiding voor het gehele traject. Vooraf wordt met u besproken wat u wilt laten verzorgen waarna er vervolgens een transparant kostenoverzicht voor u wordt opgesteld.
-					Een groot voordeel hiervan is dat u één aanspreekpunt heeft voor al uw asbest gerelateerde werkzaamheden.
-					
-				</p>
+				<ul class='font-md'>
+					<li>Asbestinventarisatie conform de SC-540 (type A, Type B, Type 0)</li>
+					<li>Risicobeoordelings onderzoek conform NEN2991</li>
+					<li>Indienen van sloopmeldingen en aanvragen sloopvergunningen</li>
+					<li>Directievoering en begeleiding bij asbest- en sloopwerken</li>
+					<li>Calculatie asbest en sloopwerken</li>
+
+				</ul>
 			</div>
 
 			<div class="col-lg-6 space-inside-sides-xl 
@@ -33,57 +36,15 @@
 						sm-space-outside-up-md
 						md-space-outside-up-md
 						">
-			<h2>Werkzaamheden</h2><br/>
-				<ul class='font-md'>
-					<li>Uitvoering asbestinventarisaties, type A, type B, type 0 </li>
-					<li>Aanvraag sloopvergunning </li>
-					<li>Opstellen kostenraming van de werkzaamheden </li>
-					<li>Opstellen van een bestek </li>
-					<li>Offerte aanvraag voor werkzaamheden </li>
-					<li>Aanschrijven van geselecteerde asbest sloopbedrijven </li>
-					<li>Vergelijking van offertes en/of inschrijvingen </li>
-					<li>Het gunnen van de opdracht </li> 
-					<li>Controle op de uitvoering van de werkzaamheden </li>
-					<li>Verzorgen van de eindcontrole bij asbest werkzaamheden </li>
-					<li>Afhandeling van correspondentie van afloop van de Werkzaamheden</li>
-				</ul>
+			<h2>Certificering</h2><br/>
 
-			</div>
-
-		</div>
-
-	</section>
-
-	<section class="container space-outside-xl animated fadeInDown wow">
-
-		<div class="row">
-
-			<div class='col-lg-12 space-inside-down-md'>
-
-				<h1 class="text-light space-outside-down-sm text-center">Certificeringen</h1>
-
-						
-			</div>
-
-			<div class='col-lg-6 space-inside-sides-xl'>
-				
-				<p class="font-md
-						">Amiante werkt met officiële certificeringen en is gecertificeerd conform de normen van richtlijn SC 540. Het certificaat is afgegeven door en staat geregistreerd onder nummer 07-D070131 (Certificaat SC-540 Amiante).
-						<br/><br/>
-						Bij de Stichting Certificatie Asbest, de SCA, staan wij geregistreerd onder nummer: 07-D070131.</p>
-
-			</div>
-
-			<div class='col-lg-6 space-inside-sides-xl
-						xs-space-outside-up-md
-						sm-space-outside-up-md
-						md-space-outside-up-md
-						'>
 				<p class='font-md'>
-
-					Hier nog tekst
-
+					Amiante is gecertificeerd conform de SC-540 norm. Het certificaat is afgegeven door Eerland. Certification en staat geregistreerd onder nummer 07-D070165 (Certificaat SC-540 Amiante). Bij de Stichting Certificatie Asbest staan wij geregisterd onder nummer 07-D070165.
 				</p>
+				<br/><br/>
+
+				<a class='font-md' href='/images/eerland-certificaat.pdf'>Bekijk hier het certificaat</a>
+
 			</div>
 
 		</div>
