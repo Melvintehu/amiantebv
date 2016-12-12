@@ -122,19 +122,19 @@
 					</a>
 				</li>
 
-				<li class="{{ Request::path() == 'Bedrijfsinformatie' ? 'active' : '' }}">
+				<li class="{{ Request::path() == 'bedrijfsinformatie' ? 'active' : '' }}">
 					<a class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/bedrijfsinformatie">
 						Bedrijfsinformatie
 					</a>
 				</li>
 
 
-				<li class="{{ Request::path() == 'projecten' ? 'active' : '' }}">
+				<li class="{{ Request::path() == 'diensten' ? 'active' : '' }}">
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/diensten"> 
 						Diensten 
 					</a>
 				</li>
-
+<!-- 
 				<li class="{{ Request::path() == 'betimmering-interieur' ? 'active' : '' }}">
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/projecten">
 						Projecten
@@ -146,7 +146,7 @@
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/actueel">
 						Actueel
 					</a>
-				</li>
+				</li> -->
 
 
 				<li class="{{ Request::path() == 'betimmering-schepen' ? 'active' : '' }}">
