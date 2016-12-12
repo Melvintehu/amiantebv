@@ -73,15 +73,10 @@
 								space-inside-sides-md
 					">
 						
-						<h5 class="space-outside-down-sm ">Bedrijven, overheid en particulier</h5>
+						<h5 class="space-outside-down-sm ">Particulier</h5>
 
 						<p class="text-color-accent-darken-md ">
-							Voor zowel bedrijven, overheid en particulier
-							voert Amiante alle voorkomende inventarisaties
-							uit. Door de grote ervaring van onze
-							medewerkers, de juiste vakkennis en
-							vakbekwaamheid kan Amiante inventarisaties
-							uitvoeren in alles soorten gebouwen. 
+							Gaat u uw huis verbouwen of slopen? Twijfelt u over de aanwezigheid van asbest in het pand dat u wilt kopen of verkopen? Neem dan contact met ons op. Wij kunnen adviseren over de mogelijke aanwezigheid van asbest in uw woning.
 						</p>
 
 						<a class="space-inside-sm
@@ -93,7 +88,7 @@
 								  text-color-light
 								  inline-block
 
-						" href="#">Meer  lezen</a>
+						" href="#">Meer lezen</a>
 
 					</div>
 
@@ -142,15 +137,10 @@
 								 space-inside-sides-md
 					">
 						
-						<h5 class="space-outside-down-sm">Bedrijven, overheid en particulier</h5>
+						<h5 class="space-outside-down-sm">Zakelijk</h5>
 
 						<p class="text-color-accent-darken-md">
-							Voor zowel bedrijven, overheid en particulier
-							voert Amiante alle voorkomende inventarisaties
-							uit. Door de grote ervaring van onze
-							medewerkers, de juiste vakkennis en
-							vakbekwaamheid kan Amiante inventarisaties
-							uitvoeren in alles soorten gebouwen.
+							Of het nu gaat om een woningbouwcorporatie, architectenbureau of een vastgoedondernemer, wij verzorgen uw asbestinventarisatie volledig op maat.
 						</p>
 
 						<a class="space-inside-sm
@@ -211,15 +201,10 @@
 								 space-inside-sides-md
 					">
 						
-						<h5 class="space-outside-down-sm xs-text-center">Bedrijven, overheid en particulier</h5>
+						<h5 class="space-outside-down-sm xs-text-center">Agrarisch</h5>
 
 						<p class="text-color-accent-darken-md xs-text-center">
-							Voor zowel bedrijven, overheid en particulier
-							voert Amiante alle voorkomende inventarisaties
-							uit. Door de grote ervaring van onze
-							medewerkers, de juiste vakkennis en
-							vakbekwaamheid kan Amiante inventarisaties
-							uitvoeren in alles soorten gebouwen.
+							Zijn uw stallen en loodsen nog voorzien van asbest golfplaten? Of heeft u in uw gebouwen asbesthoudende toepassingen? Amiante is gespecialiseerd in het inventariseren van asbest in de agrarische sector.
 						</p>
 
 
@@ -302,13 +287,13 @@
 						Wij zijn een specialist die werkt volgens de geldende wet- en regelgeving en u volledig ontzorgd. Geen half werk dus!
 						Op deze site geven wij u een beeld van ons bedrijf en duidelijk uitleg over de verschillende soorten asbestinventarisaties
 						en onze overige dienstverlening. <br> <br>
-
+<!-- 
 						Kies daarvoor één van de verschillende buttons en neem een kijkje bij onze projecten of lees alles over de
-						diverse soorten inventarisaties.
+						diverse soorten inventarisaties. -->
 
 					</p>
 
-					<a class="space-inside-sides-sm 
+					<!-- <a class="space-inside-sides-sm 
 							  space-inside-sm
 							  space-outside-up-sm 
 							  bg-main
@@ -318,8 +303,8 @@
 							  inline-block
 							  shadow-xs
 
-					" href="#">PROJECTEN</a>
-
+					" href="#">PROJECTEN</a> -->
+<!-- 
 					<a class="space-inside-sides-sm 
 							  space-inside-sm
 							  space-outside-up-md
@@ -332,7 +317,7 @@
 							  shadow-xs
 
 
-					" href="#">ASBESTINVENTARISATIES</a>
+					" href="#">ASBESTINVENTARISATIES</a> -->
 				</div>
 
 				<div class="col-lg-5 
@@ -362,7 +347,7 @@
 
 	<!-- Projecten -->
 
-	<section class="container space-inside-lg animated fadeInDown wow">
+<!-- 	<section class="container space-inside-lg animated fadeInDown wow">
 
 		<div class="row all-row-centered">
 
@@ -375,7 +360,7 @@
 			</div>
 
 			
-			<!-- PRoject -->
+			
 			<div class="col-lg-4 
 						col-md-6 
 						col-sm-6 
@@ -459,7 +444,7 @@
 			</div>
 
 
-			<!-- PRoject -->
+			
 			<div class="col-lg-4 
 						col-md-6 
 						col-sm-6 
@@ -540,7 +525,6 @@
 
 			</div>
 
-			<!-- PRoject -->
 			<div class="col-lg-4 
 						col-md-6 
 						col-sm-6 
@@ -620,11 +604,11 @@
 			
 		</div>
 		
-	</section>
+	</section> -->
 
 	<!-- onze klanten -->
 
-	<section class="bg-accent animated fadeInDown wow">
+<!-- 	<section class="bg-accent animated fadeInDown wow">
 
 		<div class="container space-inside-lg">
 			
@@ -669,5 +653,5 @@
 
 		</div>
 		
-	</section>
+	</section> -->
 @stop
