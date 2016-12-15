@@ -92,7 +92,7 @@
 		      <button type="button" 
 		      		  class="navbar-toggle collapsed" 
 		      		  data-toggle="collapse" 
-		      		  data-target="#bs-example-navbar-collapse-1" 
+		      		  data-target=".navbar-collapse" 
 		      		  aria-expanded="false"
 		      >
 		      
@@ -105,9 +105,9 @@
 
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 space-inside-sm ">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-		    	<div style='width:130px;position:relative; top:10px;' class='left image '>
+		    	<div style='width:130px;position:relative; top:10px;' class='left image hidden-xs'>
 
 		    		<img src='images/amiante-logo-no-text.jpg' style='object-fit: contain;' />
 
@@ -116,15 +116,15 @@
 		      <ul class="nav navbar-nav navbar-right ">
 		      
 
-				<li class=" ">
-					<a class="{{ Request::path() == '/' ? ' xs-text-color-light text-thin xs-bg-main' : 'text-color-dark text-light' }}  xs-text-center font-sm " href="/">
+				<li class="{{ Request::path() == '/' ? 'active' : '' }}">
+					<a class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/">
 						Home
 					</a>
 				</li>
 
 				<li class="{{ Request::path() == 'bedrijfsinformatie' ? 'active' : '' }}">
-					<a class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark"  href="/bedrijfsinformatie">
-						Bedrijfsinformatie
+					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/bedrijfsinformatie"> 
+						Bedrijfsinformatie 
 					</a>
 				</li>
 
@@ -149,7 +149,7 @@
 				</li> -->
 
 
-				<li class="{{ Request::path() == 'betimmering-schepen' ? 'active' : '' }}">
+				<li class="{{ Request::path() == 'contact' ? 'active' : '' }}">
 					<a  class="xs-text-center font-sm text-light xs-bg-hover-main xs-text-hover-light xs-text-color-dark" href="/contact">
 						Contact
 					</a>

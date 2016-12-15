@@ -95,7 +95,8 @@
 						col-xs-12 
 						xs-space-outside-down-md
 						xs-max-width-lg		
-						 
+						xs-center
+						xs-col-centered
 			">
 
 					<div class="col-lg-12
@@ -136,7 +137,8 @@
 						sm-space-outside-down-md
 						col-xs-12
 						xs-space-outside-down-md
-						xs-max-width-lg	 	 
+						xs-max-width-lg	 
+						xs-col-centered	 
 			">
 
 					<div  class="col-lg-12
@@ -177,6 +179,7 @@
 						 col-sm-12 
 						 col-xs-12
 						 xs-max-width-lg
+						 xs-col-centered
 
 			">
 
